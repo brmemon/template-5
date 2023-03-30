@@ -1,13 +1,17 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: inherit;
+    box-sizing: border-box;
 }
 body{
     font-family: Verdana,sans-serif;
     font-size: 15px;
     line-height: 1.5;
+    /* margin: 0; */
     /* padding: 0.01em 16px; */
+        /* margin-left: auto;
+        margin-right: auto; */
+    /* max-width: 1300px; */
 }
 h1,h2{
     font-family: "Segoe UI",Arial,sans-serif;
@@ -21,13 +25,15 @@ p{
 
 
 .main_content1{
-    margin: auto;
-    padding: auto;
+    margin-left: auto;
+    margin-right: auto;
     max-width: 1300px;
     display: flex;
 }
 
 .first_section1{
+    /* margin-left: auto;
+    margin-right: auto; */
     padding: 0.01em 16px;
     width: 49.99%;
     color: white;
@@ -115,6 +121,8 @@ p{
     color: white;
     background-color: #607d8b;
     height: 700px;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
 }
 
 .first_heading2{
@@ -166,10 +174,14 @@ p{
 }
 
 .image1{
+    border-style: none;
     width: 49.99%;
+    vertical-align: middle;
 }
 .image2{
+    border-style: none;
     width: 49.99%;
+    vertical-align: middle;
 }
 
 .images2{
@@ -177,11 +189,15 @@ p{
 }
 
 .image3{
+    border-style: none;
     width: 49.99%;
+    vertical-align: middle;
 }
 
-.image4{
+.image4{    
+    border-style: none;
     width: 49.99%;
+    vertical-align: middle;
 }
 
 .images3{
@@ -189,15 +205,19 @@ p{
 }
 
 .image5{
+    border-style: none;
+    vertical-align: middle;
     width: 49.99%;
 }
 
 .image6{
+    border-style: none;
+    vertical-align: middle;
     width: 49.99%;
 }
 
 .para2{
-    padding: 23px;
+    padding: 22px;
     text-align: center;
 }
 
@@ -206,7 +226,7 @@ p{
     min-height: 800px;
     color: #fff;
     background-color: #3f51b5;
-    padding: 0.01em 16px;
+    /* padding: 0.01em 16px; */
 }
 
 .heading3{
